@@ -10,7 +10,7 @@ function Home() {
   useEffect(() =>{
     const fetchProducts = async () => {
       try {
-        const res = await fetch(`${API}/api/products`);
+        const res = await fetch(`${API_URL}/api/products`);
         const data = await res.json();
         setProducts(data.slice(0, 4));
       } catch (error) {
