@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { useParams, Link } from 'react-router-dom'
 import { addToCart } from '../redux/cartSlice';
+import API_URL from '../config/api';
 
 const ProductDetail = () => { 
     const { id } = useParams();

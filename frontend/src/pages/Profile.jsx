@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../context/AuthContext'
 import { Link, useNavigate } from 'react-router-dom';
+import API_URL from '../config/api';
 
 const Profile = () => {
     const { user, logout } = useContext(AuthContext);
