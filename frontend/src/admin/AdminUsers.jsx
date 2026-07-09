@@ -1,4 +1,4 @@
-import React, { use, useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../context/AuthContext'
 
 const AdminUsers = () => {

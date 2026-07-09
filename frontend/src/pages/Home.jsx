@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import API_URL from "../config/api";
 

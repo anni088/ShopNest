@@ -11,7 +11,7 @@ const AdminOrders = () => {
         headers: { Authorization: `Bearer ${user.token}` }
       });
       const data = await res.json();
-      setOrders( );
+      setOrders(Array.isArray(data) ? data : []);
     };
     fetchOrders();
   }, [user]);
