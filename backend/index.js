@@ -34,8 +34,6 @@ app.use(cors({
   credentials: true,
 }));
 
-app.options("*", cors());
-
 console.log("FRONTEND_URL:", process.env.FRONTEND_URL);
 
 app.use(express.json());
